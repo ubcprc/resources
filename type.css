@@ -1,0 +1,277 @@
+/**
+ *  Typography stylesheet for the first paper-free bulletin board
+ *  
+ *  Author: Ben Clark - 2016
+ **/
+
+body {
+    min-width: 810px;
+    font-family: 'Dosis', sans-serif;
+    font-size: 14px;
+    background-attachment: fixed;
+    background: radial-gradient(#ffffff, #DFDFDF);
+}
+
+
+#title-1 {
+    display: block;
+    position: relative;
+    width: 80%;
+    margin: 0;
+    margin-left: 10%;
+    margin-bottom: 36pt;
+    margin-top: 100px;
+    padding: 0;
+    color: #333333;
+    font-family: 'Playfair Display', serif;
+    font-size: 120pt;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: -5pt;
+    border-bottom: thin solid #BBBBBB;
+}
+
+#paper-paragraph {
+    display: block;
+    position: relative;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 120px;
+    color: #555555;
+    font-family: 'Dosis', sans-serif;
+    font-size: 16pt;
+    text-align: center;
+}
+
+#monthly-usage {
+    display: block;
+    position: relative;
+    margin-bottom: 100px;
+    width: 100%;
+    height: 300px;
+}
+
+#monthly-usage-left {
+    display: block;
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: 4%;
+    height: auto;
+    font-size: 12pt;
+    color: #777777;
+    text-indent: 1em;
+}
+
+#imagine-container {
+    display: block;
+    position: relative;
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-bottom: 150px;
+}
+
+#worth-it {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: -30px;
+    color: #777777;
+    font-size: 18pt;
+    font-weight: 100;
+    text-align: center;
+    letter-spacing: 3pt;
+}
+
+#answer-yes {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: -20px;
+    color: #555555;
+    font-family: 'Playfair Display', serif;
+    font-size: 110pt;
+    font-weight: 900;
+    text-align: center;
+    letter-spacing: -2pt;
+}
+
+#yes-explanation {
+    display: block;
+    position: relative;
+    width: 40%;
+    margin-bottom: 200px;
+    margin-left: 30%;
+    color: #777777;
+    font-size: 12pt;
+    text-align: center;
+    letter-spacing: 1pt;
+}
+
+#little-butt {
+    display: block;
+    position: relative;
+    float: left;
+    width: 30%;
+    margin: 0;
+    margin-top: 40px;
+    color: #555555;
+    font-size: 12pt;
+    text-align: right;
+    letter-spacing: 3pt;
+}
+
+#imagine-title {
+    display: block;
+    position: relative;
+    float: left;
+    width: 60%;
+    margin: 0;
+    margin-left: 1%;
+    padding-left: 1%;
+    color: #555555;
+    font-family: 'Playfair Display', serif;
+    font-size: 100pt;
+    text-align: left;
+    letter-spacing: -5pt;
+    /** border-left: thin solid #CCCCCC; **/
+}
+
+#a-world {
+    display: block;
+    position: relative;
+    float: none;
+    clear: both;
+    width: 100%;
+    margin: 0;
+    color: #777777;
+    font-size: 16pt;
+    text-align: center;
+    letter-spacing: 3pt;
+}
+
+#pros-n-cons-container {
+    display: block;
+    position: relative;
+    float: none;
+    clear: both;
+    width: 100%;
+    height: 550px;
+    margin: 0 0 150px 0;
+}
+
+#pros {
+    display: block;
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: 5%;
+}
+
+.pros-cons-title {
+    display: block;
+    position: relative;
+    width: 100%;
+    color: #555555;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    font-size: 36pt;
+    letter-spacing: -2pt;
+    font-weight: 900;
+    border-bottom: thin solid #CCCCCC;
+}
+
+#cons {
+    display: block;
+    position: relative;
+    float: left;
+    width: 40%;
+    margin-left: 9%;
+}
+
+.pros-cons-text {
+    display: block;
+    position: relative;
+    width: 80%;
+    color: #777777;
+    font-size: 12pt;
+    line-height: 16pt;
+}
+
+.pros-cons-text li {
+    margin: 0 0 12pt 0;
+}
+
+#conclusion-header {
+    display: block;
+    position: relative;
+    width: 100%;
+}
+
+#conclusion-tagline {
+    display: block;
+    position: relative;
+    width: 70%;
+    margin: 0 0 -35pt 20%;
+    color: #777777;
+    font-family: 'Playfair Display', serif;
+    font-size: 12pt;
+    letter-spacing: 3pt;
+}
+
+#conclusion-paperless {
+    display: block;
+    position: relative;
+    width: 60%;
+    margin: 0 0 10px 20%;
+    color: #555555;
+    font-family: 'Playfair Display', serif;
+    font-size: 100pt;
+    text-align: center;
+    border-bottom: thin solid #CCCCCC;
+    letter-spacing: -5pt;
+}
+
+#dont-think-so {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin: 0 0 100px 0;
+    color: #777777;
+    font-size: 14pt;
+    text-align: center;
+    letter-spacing: 3pt;
+}
+
+
+.conclusion {
+    display: block;
+    position: relative;
+    width: 60%;
+    margin: 0 19% 16pt 20%;
+    color: #777777;
+    font-size: 12pt;
+    text-align: justify;
+}
+
+.conclusion li {
+    margin-bottom: 8pt;
+}
+
+#conclusion-end {
+    margin-bottom: 400px;
+}
+
+.final-note {
+    display: block;
+    position: relative;
+    float: none;
+    clear: both;
+    width: 40%;
+    margin: 0 0 80px 30%;
+    color: #999999;
+    font-size: 12pt;
+    text-align: left;
+}

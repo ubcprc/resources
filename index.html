@@ -1,9 +1,160 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>PRC Resources</title>
-  </head>
-  <body>
-    <h1>TEST!</h1>
-  </body>
+    <head>
+        <title>PRC Resources</title>
+        <meta name="author" content="Ben Clark" />
+        <meta name="description" content="The first, fully paper-free bulletin board" />
+        <meta name="Keywords" content="PRC, UBC, Resources, Paper, Consumption, Bulletin" />
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="/type.css" />
+        <link rel="stylesheet" type="text/css" href="/structure.css" />
+        <script type="text/javascript" src="animations.js"></script>
+        <link href="https://fonts.googleapis.com/css?family=Dosis|Playfair+Display" rel="stylesheet">
+        <script type="text/javascript" async
+            src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+        </script>
+        <script type="text/x-mathjax-config">
+            MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+        </script>
+    </head>
+    <!--
+                /////////    /////////       //////
+                //      //   //      //    //     //
+                //      //   //      //   //
+                /////////    /////////    //
+                //           //   //      //
+                //           //     //     //     //
+                //           //       //     //////
+
+                                                                         
+                                       ````                           
+                         `XXXXXX`    `XXXXXX`                         
+                        XXXXXXXXXX  `XXXXXXXX                         
+                        XXXXXXXXXX  XXXXXXXXX`                        
+                        `XXXXXXXXXXXXXXXXXXXX                         
+                         ```XXXXXXXXXXXXXXXX`                         
+                        ```  XXXXXXXXXXXXXX                           
+                    `XXXXXXXXXXXXXXXXXXXXXX`                          
+                   `XXXXXXXXXXXXXXXXXXXXXXXX                          
+                    XXXXXXXXXXXXXXXXXXXXXXXX`                         
+                     ``XXXXXXXX``XXXXXXXXXXX`                         
+                                  `XXXXXXXXX`                         
+                                    ```XXXXX`        O O O O         
+                                          ```O O O O         O        
+                                                            O   
+
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    Ben        eBen         Ben  Awesome  nIsAwesomeBenIsAwesome
+    Ben  Aweso  Ben  AwesomeBen   wesome  nIsAwesomeBenIsAwesome
+    Ben  Aweso  Ben  AwesomeBen    esome  nIsAwesomeBenIsAwesome
+    Ben        eBen       meBen  Aw  ome  nIsAwesomeBenIsAwesome
+    Ben  Aweso  Ben  AwesomeBen  Awe  me  nIsAwesomeBenIsAwesome
+    Ben  Aweso  Ben  AwesomeBen  Awes  e  nIsAwesomeBenIsAwesome
+    Ben  Aweso  Ben  AwesomeBen  Aweso    nIsAwesomeBenIsAwesome
+    Ben        eBen         Ben  Awesom   nIsAwesomeBenIsAwesome
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    Ben         BenIsA    meBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAw  omeBenIs  es  eBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAw  omeBenI  weso  BenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAw  omeBenI  wesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAw  omeBenIsA  esomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAw  omeBenIsAwes  eBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAw  omeBen  Aweso  BenIsAwesomeBenIsAwesomeBenIsAwesome
+    Ben         BenIs  es  eBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAwesomeBenIsA    meBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsA     eBenIs      eBenIs      eBen  AwesomeBen  Awesome
+    BenIs  eso  BenI  weso  BenI  weso  Ben  AwesomeBen  Awesome
+    BenI  wesom  en  Awesom  en  Awesom  en  AwesomeBen  Awesome
+    BenI  wesomeBen  Awesom  en  Awesom  en  AwesomeBen  Awesome
+    BenI  wesomeBen  Awesom  en  Awesom  en  AwesomeBen  Awesome
+    BenI  wesomeBen  Awesom  en  Awesom  en  AwesomeBenIsAwesome
+    BenIs  esom  enI  weso  BenI  weso  Ben  AwesomeBenIsAwesome
+    BenIsA      BenIs      eBenIsA     eBen          en  Awesome
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    BenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesomeBenIsAwesome
+    
+    It's OK to do nerdy things :) Thanks for looking at this source code!
+
+
+    -->
+    <body>
+
+        <!--  Header  -->
+        <h1 id="title-1">Paper</h1>
+        <p id="paper-paragraph">The most used resource in the PRC</p>
+
+        <!-- Monthly Usage  -->
+        <div id="monthly-usage">
+            <div id="monthly-usage-left">
+                <p>Last week in the PRC, we ordered 5 cases of paper. Each case has 10 packs of paper in it. Each pack of paper has 500 sheets in it.</p>
+                <p> $$ 5_{cases} \times \frac{10_{packs}}{1_{case}} \times \frac{500_{sheets}}{1_{pack}} = 25,000_{sheets} $$ </p>
+                <p>25,000 sheets of paper. That's roughly 4 cubic feet of paper. When stacked, the 5 cases are taller than I am. This volume of paper is roughly  equal to the volume of a large tree. And this is only considering our use of standard letter sized paper (legal and tabloid not included).</p>
+                <p>Furthermore, this doesn't account for the ink, electricity, transportation, and physical manufacturing equipment that are expended as a byproduct of printing...</p>
+            </div>
+            <div id="monthly-usage-right">
+            </div>
+        </div>
+        
+        <!-- Is it Worth It? -->
+        <h1 id="worth-it">Is it worth it?</h1>
+        <h2 id="answer-yes">Yes</h2>
+        <h3 id="yes-explanation">Think about the number of residents this affects. Thousands of people see what we print every year. This paper supports the hundreds of programs we run for residents, the professional development that helps our residence life staff grow, and the studying that defines our existence here at UBC.</h3>
+
+        
+        <!--  IMAGINE :D  -->
+        <div id="imagine-container">
+            <p id="little-butt">... But</p><h1 id="imagine-title">Imagine</h1><p id="a-world">a world of paperless marketing and bulletin boards...</p>
+        </div>
+        
+        
+        <!-- Pros/Cons -->
+        <div id="pros-n-cons-container">
+            <div id="pros">
+                <h1 class="pros-cons-title">The Good</h1>
+                <ul class="pros-cons-text">
+                    <li>From a sustainability standpoint, the internet is the way of the future. Posters are the marketing equivalent of a one-time-use coffee cup, and the fewer posters we print the more resources we save.</li>
+                    <li>Online promotions have the ability to tap into markets that simply don't notice posters. At least right now, 1 more drop in the ocean of paper posters won't draw much attention, but an exciting, new, interactive, online promotion will grab attention due to its novelty.</li>
+                    <li>Opportunities are endless when it comes to web-based graphics! You can animate in ways that are simply impossible in a paper medium by changing brightness, colours, position, and shape of objects in your vision. Use these cool new possibilities to your advantage! This bulletin board, for example, should read like a story thanks to the "scroll" function only available in web browsers.</li>
+                    <li>If your promotion is online, it can be viewed anywhere and everywhere, not only on the walls in your hallway!</li>
+                </ul>
+            </div>
+            <div id="cons">
+                <h1 class="pros-cons-title">The Bad</h1>
+                <ul class="pros-cons-text">
+                    <li>The number one barrier to saving paper with online posters right now is a lack of infrastructure to promote it. SHHS provides printing, graphic design software, and unlimited paper to advisors free of charge, but even as a PRCA with direct contact info to UBC's IT staff I can't get access to our online hosting systems. I had to go rogue and create my own hosting option for this website, and that is bound to scare away potential web designers.</li>
+                    <li>Ultimately, there's something really satisfying about have a tangible final product. Some designs are just better in print, and that's the reality of it! I love the internet, but I never want the PRC to go totally paperless because some posters are really cool!</li>
+                    <li>If everyone promotes online, that marketing channel will become just as over-loaded as the paper-poster channel is now. The choice of advertising medium will become increasingly difficult as the web becomes more accessible in the future.</li>
+                </ul>
+            </div>
+        </div>
+        
+        
+        <!-- The Conclusion -->
+        <div id="conclusion-header">
+            <p id="conclusion-tagline">So should you go</p>
+            <h1 id="conclusion-paperless">paperless?</h1>
+            <p id="dont-think-so">I don't think so...</p>
+            <p class="conclusion">Reduce, Reuse, and Recycle. I absolutely don't want to be misubderstood as asking people to stop printing, because I think it's an essential part of what we do! However, I want to encourage you to consider reducing the amount of paper you use. Whenever possible:</p>
+            <ul class="conclusion">
+                <li>If you have the skills and know-how to make online promotions, do it! If you don't yet know how, ask someone who does! It's a useful skill, and like I mentioned above, the paper-free promotions have some special features that just can't be recreated with paper.</li>
+                <li>Critically consider whether or not posters are actually necessary for promoting your event. Often times, of course, they are :) But residence is so saturated with posters. Is there a more novel or intriguing way to get your message out there.</li>
+                <li>Print on the smallest paper possible. If it's not essential for your poster to be printed in the tabloid size, print it on letter sized paper. Unless it's going to be HUGE, bigger isn't better here. Tabloid posters don't draw more attention than letter sized posters, but life-sized installation art does.</li>
+                <li>Can your event be promoted entirely online? Consider going paper free with facebook and word-of-mouth promotion tactics if it will allow you to reach the residents you're targetting.</li>
+                <li>Reduce the number of posters you're printing if possible.</li>
+            </ul>
+            <p class="conclusion" id="conclusion-end">But above all else, just keep programming and promoting your programs as best you can :) </p>
+        </div>
+        
+        
+        <!-- Final Note -->
+        <p class="final-note">Want to build your own paper-free, online bulletin board like this one? Take a look at the source code for a fun surprise ;)</p>
+        <p class="final-note">On a final note, I have to sheepishly admit that I did use 1 sheet of reusable, letter-sized paper in the making of this bulletin board to sketch my design before building it. </p>
+        
+        
+    </body>
 </html>
